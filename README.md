@@ -17,5 +17,6 @@
 
 **Documentation and Guides**: Detailed documentation and guides accompany each project, assisting you in understanding the project goals, dataset descriptions, model architectures, and implementation details. These resources help you replicate the results and adapt the projects to your specific needs.
 
-<hr>
+---
+
 _Whether you are a beginner exploring the field of image classification or an experienced practitioner looking to expand your knowledge of TensorFlow and CNNs, this repository will equip you with practical skills and insights. Start exploring the projects, contribute your own implementations, and take your binary image classification abilities to new heights._
