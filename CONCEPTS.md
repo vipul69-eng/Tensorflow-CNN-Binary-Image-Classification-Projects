@@ -23,5 +23,8 @@ on input data. Filters play a crucial role in CNNs by extracting local features 
 In Convolutional Neural Networks (CNNs), a kernel refers to the same concept as a filter or a convolutional filter. Kernels are small matrices of weights that are applied to the
 input data during the convolutional operation.
 
+## Strides
+The stride determines how much the filter shifts or moves horizontally and vertically after each convolution operation. A stride of 1 means the filter moves one unit at a time, a stride of 2 means it moves two units at a time, and so on. The stride can also be different for the horizontal and vertical directions.
+
 _To know more about kernels, filters and all other terms related to CNN in detail refer CNN explainer website_
 >https://poloclub.github.io/cnn-explainer/
