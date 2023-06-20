@@ -10,7 +10,7 @@ Data augmentation is a technique used in machine learning and computer vision to
 the existing data. It is particularly useful when the available training data is limited or when the model would benefit from exposure to a wider range of variations in the 
 input data.
 
-# Batches
+## Batches
 In deep learning, a batch refers to a subset of the training data that is processed together during each iteration of the training algorithm. Instead of updating the model's parameters based on individual training examples, batches allow for more efficient computation by processing multiple examples simultaneously.
 
 Typically, the entire training dataset is divided into smaller batches, and each batch is fed into the neural network for forward propagation, followed by backpropagation to calculate the gradients and update the model's parameters. This process is repeated for multiple epochs until the model converges.
