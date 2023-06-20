@@ -26,5 +26,10 @@ input data during the convolutional operation.
 ## Strides
 The stride determines how much the filter shifts or moves horizontally and vertically after each convolution operation. A stride of 1 means the filter moves one unit at a time, a stride of 2 means it moves two units at a time, and so on. The stride can also be different for the horizontal and vertical directions.
 
+<hr>
+
+### Why to shuffle your dataset?
+In many real-world datasets, the order of the examples may contain inherent patterns or biases. If the dataset is not shuffled, the model can inadvertently learn to rely on the order of the examples rather than learning the underlying patterns. Shuffling the dataset helps to break any sequential patterns, ensuring that the model is exposed to a diverse range of examples during training and reducing the risk of biased learning.
+
 _To know more about kernels, filters and all other terms related to CNN in detail refer CNN explainer website_
 >https://poloclub.github.io/cnn-explainer/
